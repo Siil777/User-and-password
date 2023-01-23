@@ -29,8 +29,10 @@ def make(login:str,password:str):
     while True:
         if len(password)<2:
             print('simple password')
-            break
+            password=input('password')
+            
         elif len(password)>=2:
+            password1.append(password)
             print('you have registered')
 
             return login,password
