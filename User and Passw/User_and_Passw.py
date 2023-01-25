@@ -8,7 +8,7 @@ while True:
         print('until next time!')
         break
     elif u==2:
-        login=registration(input('login:'),input('password:'))
+        login=autoriz(input('login:'),input('password:'))
     elif u==1:
-        generate=make(input('login:'),input('password'))
+        generate=registration(input('login:'),input('password'))
 
